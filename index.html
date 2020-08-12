@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Weather <i class="fas fa-bolt"></i> <i class="fas fa-cloud"></i>
+        <i class="fas fa-cloud-sun"></i>
+        <i class="fas fa-cloud-showers-heavy"></i>
+      </h1>
+    </header>
+
+    <form name="myForm">
+      <div class="form-row">
+        <label>City: <input class="city" type="text" name="city" /></label>
+      </div>
+      <div class="form-row">
+        <label
+          >Country: <input class="country" type="text" name="country"
+        /></label>
+      </div>
+      <div class="form-row">
+        <button class="submit">Submit</button>
+        <button class="reset" type="reset">Reset</button>
+      </div>
+    </form>
+
+    <div id="mount"></div>
+  </body>
+</html>
